@@ -1,6 +1,6 @@
 # Stencil Component Starter
 
-Bug report for Stencil.
+Bug report for Stencil issue https://github.com/ionic-team/stencil/issues/6148
 
 1. `npm install`
 2. `npm run build`
