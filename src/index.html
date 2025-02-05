@@ -18,7 +18,7 @@
         const component = document.getElementById('component')
         container.removeChild(component)
         setTimeout(() => {
-          component.first = "Was stencil";
+          component.first = "Was stencil"; // Crash here since deleteHostRef was already called.
           container.appendChild(component)
         }, 1000)
       }, 1000)
